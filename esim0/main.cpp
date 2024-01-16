@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 
 using namespace std;
 
@@ -13,6 +14,7 @@ int main()
     cout<<"Anna 3.luku"<<endl;
     cin>>c;
     avg=(a+b+c)/3;
+    cout<<setprecision(2)<<fixed;
     cout<<"Keskiarvo on "<<avg<<endl;
     return 0;
 }
